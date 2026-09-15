@@ -54,7 +54,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ghcr.io/jaredtrent/jellyfin-mcp
+          images: ghcr.io/zenla5/jellyfin-mcp
           flavor: |
             latest=false
           tags: |
